@@ -1,0 +1,7 @@
+bantime = 3600
+banaction = iptables-multiport
+
+[sshd]
+enabled = true
+
+logpath  = /var/log/auth.log
