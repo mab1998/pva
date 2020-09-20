@@ -2,6 +2,24 @@
 
 All notable changes to `ignition` will be documented in this file
 
+## 2.3.7 - 2020-09-06
+
+- add loading state on share button (#309)
+- compatiblity fix for L8
+
+## 2.3.6 - 2020-08-10
+
+- possible security vulnerability: bump elliptic version (#300)
+- possible XSS vulnerability: escape characters in stacktrace and exception title
+
+## 2.3.5 - 2020-08-01
+
+- catch exception in detectLineNumber for not existing blade files (#299)
+
+## 2.3.4 - 2020-07-27
+
+- fix an error that would throw a blank page when using third party extensions
+
 ## 2.3.3 -2020-07-14
 
 - fix all psalm related issues
